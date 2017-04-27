@@ -37,6 +37,7 @@ if [ "x${boot_drive}" = "x" ] ; then
 	exit 1
 fi
 
+
 if [ "x${boot_drive}" = "xmmcblk0p1" ] ; then
 	source="/dev/mmcblk0"
 	destination="/dev/mmcblk1"
